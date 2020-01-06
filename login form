@@ -1,0 +1,12 @@
+def LoginForm():
+    global lbl_result
+    TopLoginForm = Frame(loginform, width=600, height=100, bd=1, relief=SOLID)
+    TopLoginForm.pack(side=TOP, pady=20)
+    lbl_text.pack(fill=X)
+    lbl_username.grid(row=0)
+    lbl_password.grid(row=1)
+    lbl_result.grid(row=3, columnspan=2)
+    username = Entry(MidLoginForm, textvariable=USERNAME, font=('arial', 25), width=15)
+    username.grid(row=0, column=1)
+    password = Entry(MidLoginForm, textvariable=PASSWORD, font=('arial', 25), width=15, show="*")
+    password.grid(row=1, column=1)
