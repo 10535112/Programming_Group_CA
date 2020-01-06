@@ -1,0 +1,9 @@
+SELLING FUNCTIONALITIES:
+In this functionalities we intent to allow users to sell their stocks to various companies wishing to raise the money depending upon one primary table i.e. SELLING_OPTION which includes column like ID of the user, STOCK_ID, CURRENT_PRICE and BUYING_PRICE etc.
+Taking the help of this table the user can check the price and stock ID which will be able for the user to buy the share accordingly.
+
+	BUYING FUNCTIONALITIES: 
+In this second functionalities, we intend to allow users to buy stocks from different companies or shareholders with the same intention to raise money which depends upon primary table i.e. BUYING_OPTION which includes various column like ALL_TIME_HIGH price,  ALL_TIME_LOW price, CURRENT_PRICE and also by displaying FUTURE_PROFIT_PERCENTAGE etc.
+
+•	FUTURE FUNCTIONALITIES:
+In this functionality, the user can predict where to spend and where not to spend by perceiving the future prediction of the stocks which include basic information like OPEN_PRICE, CLOSE_PRICE, FUTURE_PRICE. This basic information will surely be beneficial for those users who are about or willing to buy or sell stocks.
